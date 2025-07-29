@@ -1,0 +1,10 @@
+{
+    "name" : "RampantArsenalFork_Firestorm",
+    "factorio_version" : "2.0",
+    "version" : "1.2.2",
+    "title" : "Rampant Arsenal (Firestorm-Fork)",
+    "author" : "Firestorm & Dimm2101",
+    "homepage" : "",
+    "description" : "Set medic turret to be similar to the broken capsule launcher turret for repair packs. Fork of https://mods.factorio.com/mod/RampantArsenalFork/discussion/67ca08456ae0b4a9e81343ae",
+    "dependencies" : ["base >= 2.0.0", "?space-age"]
+}

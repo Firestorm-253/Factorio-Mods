@@ -1,0 +1,6 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+  Compatibility:
+    - Ported Rampant Aredenal 1.1.6 to Factorio 2.0. Added Space Age compatibility
+  Tweaks:
+    - Some balance changes to aviod balance breaking with SA
