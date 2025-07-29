@@ -5,6 +5,6 @@
     "title" : "RealNukes (Balanced)",
     "author" : "Firestorm",
     "homepage" : "",
-    "description" : "Semi Realistic Nuclear Artillery Shell\n\n260T TNT Fission bomb (representing the original nuke)\n10kT TNT Fusion bomb (new recipe with realistic ingreedients and ingreedient amount, calculated by nuclear- and fusion-cell's energy (8GJ, 40GJ)",
+    "description" : "Semi Realistic Nuclear Artillery Shell\n\n260T TNT Fission bomb (representing the original nuke)\n10kT TNT Fusion bomb (new recipe with realistic ingredients and ingredient amount, calculated by nuclear- and fusion-cell's energy (8GJ, 40GJ)",
     "dependencies" : ["base >= 2.0.0", "?space-age"]
 }
