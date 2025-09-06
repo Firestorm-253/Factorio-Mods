@@ -399,6 +399,7 @@ function projectileUtils.makeRocketProjectile(attributes)
 				hidden_in_factoriopedia = true,
                 collision_box = attributes.collisionBox,
                 acceleration = attributes.acceleration or 0.005,
+                turn_speed = attributes.turn_speed or 0.03,
                 direction_only = attributes.directionOnly,
                 piercing_damage = attributes.piercingDamage,
                 action = attributes.action or

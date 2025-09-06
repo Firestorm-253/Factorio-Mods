@@ -85,7 +85,7 @@ function rockets.enable()
         preparedAnimation = rocketSheetMk1(),
         preparingAnimation = rocketSheetMk1(),
         hasBaseDirection = true,
-        rotationSpeed = 0.002,
+        rotationSpeed = 0.02,
         resistances = {
             {
                 type = "fire",
@@ -128,9 +128,9 @@ function rockets.enable()
                                                               cooldown = 300,
                                                               projectile_creation_distance = 1.39375,
                                                               projectile_center = {0, -0.0875},
-                                                              min_range = 20,
+                                                              min_range = 30,
                                                               turn_range = 0.30,
-                                                              range = 52,
+                                                              range = 65,
                                                               sound = {
                                                                   {
                                                                       filename = "__base__/sound/fight/rocket-launcher.ogg",
@@ -194,7 +194,7 @@ function rockets.enable()
                                                                         projectile_center = {0, -0.0875},
                                                                         min_range = 20,
                                                                         turn_range = 0.30,
-                                                                        range = 42,
+                                                                        range = 48,
                                                                         sound = {
                                                                             {
                                                                                 filename = "__base__/sound/fight/rocket-launcher.ogg",
@@ -418,9 +418,11 @@ function rockets.enable()
                                 action_delivery =
                                     {
                                         type = "projectile",
-                                        starting_speed = 0.1,
+                                        starting_speed = 0.04,
                                         projectile = makeRocketProjectile({
                                                 name = "he",
+                                                acceleration = 0.0175,
+                                                turn_speed = 0.03,
                                                 action =
                                                     {
                                                         type = "direct",
